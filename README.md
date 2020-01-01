@@ -13,8 +13,10 @@ The program is generate a solution for travelling sales person using Minimum Spa
 Output generated is <input_file_name>.out.tour. For visualization purposes a image file also generated with the name <input_file_name>\_final.png
 
 ## Output
-Output before 2-opt:
+### Output before 2-opt:
+
 ![Initial Output](eil51.png)
 
-Final output:
+### Final output:
+
 ![Final Output](eil51_final.png)
