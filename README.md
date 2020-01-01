@@ -1,6 +1,6 @@
 # TSP-using-mst-and-2-opt
 
-The program is generate a solution for travelling sales person using Minimum Spanning Tree (MST) nad 2-Opt heuristics method. The input of the program are eil51.tsp, eil76.tsp and eil101.tsp. These files are taken from http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsp/.
+The program is to generate a solution for traveling sales person using Minimum Spanning Tree (MST) and 2-Opt heuristics method. The input of the program are eil51.tsp, eil76.tsp and eil101.tsp. These files are taken from http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsp/.
 
 ## Dependencies
 * matplotlib
