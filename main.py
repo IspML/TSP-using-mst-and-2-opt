@@ -160,7 +160,10 @@ def two_opt(tour, tsp_file):
             else:
                 # Checking if the improve the tour length
                 new_tour = tour.copy()
-                new_tour[j0:i1+1] = new_tour[j0:i1+1][::-1]
+                if j0 < i1:
+                    new_tour[j0:i1+1] = new_tour[j0:i1+1][::-1]
+                elif i0 < j1:
+                    new_tour[i0:j1+1] = new_tour[i0:j1+1][::-1]
                 new_weight = cal_total_distance(new_tour, tsp_file)
                 if new_weight < total_weight:
                     tour = new_tour.copy()

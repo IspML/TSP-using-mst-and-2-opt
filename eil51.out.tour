@@ -1,5 +1,5 @@
 NAME : eil51.out.tour
-COMMENT : Tour for eil51.tsp (460)
+COMMENT : Tour for eil51.tsp (467)
 TYPE: TOUR
 DIMENSION: 51
 TOUR_SELECTION
@@ -9,18 +9,21 @@ TOUR_SELECTION
 34
 21
 29
+16
 50
 49
 9
-5
 38
+5
 11
-16
 2
-36
-35
-20
+32
+1
+22
 3
+20
+35
+36
 28
 31
 26
@@ -29,20 +32,17 @@ TOUR_SELECTION
 7
 43
 24
+18
+14
+25
 6
 48
 27
-22
-1
-32
 51
 46
 12
 47
 4
-18
-14
-25
 13
 41
 40
